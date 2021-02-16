@@ -5,7 +5,7 @@ from flask import render_template
 
 app = Flask(__name__)
 
-@app.route("/nmrBlochs")
+@app.route("/")
 def nmrBlochs():
     # this is a comment, just like in Python
     # note that the function name and the route argument
